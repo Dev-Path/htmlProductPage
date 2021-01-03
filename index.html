@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Products Page</title>
+</head>
+
+<body>
+
+    <header>
+        <a href="#" class="logo">Products</a>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Store</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </header>
+
+    <section class="banner">
+        <div class="imgBx">
+            <img src="img1.jpg" alt="image one" class="active">
+            <img src="img2.jpg" alt="image two">
+            <img src="img3.jpg" alt="image three">
+            <img src="img4.jpg" alt="image four">
+        </div>
+
+        <div class="contentBx">
+            <div class="active">
+                <h2>The New Nike Blazer</h2>
+                <p>The new Nike Blazer Mid Rebel Festival with full Tearaway Upper. Tearway uppers are (and seemingly
+                    will never cease to be) all the rage, as Nike continues to make use of it across many of their
+                    flagship releases. And for this year’s Spring Festival, the execution is being applied atop the
+                    Blazer Mid Rebel for a floral and unequivocally loud celebration.
+                </p>
+                <a href="#">Details</a>
+            </div>
+
+            <div>
+                <h2>Air Jordan</h2>
+                <p> the Air Jordan 5 Retro. Dropping in 2006 during the AJ5’s first re-insertion into the Retro market
+                    since the turn of the century, this “Stealth” colorway was noted for its adherence to classic
+                    construction.
+                </p>
+                <a href="#">Details</a>
+            </div>
+
+            <div>
+                <h2>Nikkon Z6 II</h2>
+                <p> If you intend to take pictures only to e-mail them to distant friends, upload them to sharing sites,
+                    or print them at snapshot size, a camera of most any resolution will do. Even so, having more pixels
+                    gives you greater flexibility—you can print sharper pictures at larger sizes or crop and print small
+                    sections of pictures.
+                </p>
+                <a href="#">Details</a>
+            </div>
+
+            <div>
+                <h2>Philips T-bulb B22</h2>
+                <p>Philips LED bulbs provide a beautiful, cool day light, an exceptionally long life and immediate,
+                    significant energy saving. With the pure and elegant design, this bulb is the perfect replacement
+                    for your clear incandescent bulbs.</p>
+                <a href="#">Details</a>
+            </div>
+        </div>
+        <!-- controls -->
+        <ul class="controls">
+            <li onclick="prevSlide();prevSlideText();"></li>
+            <li onclick="nextSlide();nextSlideText();"></li>
+        </ul>
+    </section>
+
+    <script type="text/javascript" src="app.js"></script>
+</body>
+
+</html>
